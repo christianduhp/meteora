@@ -1,0 +1,24 @@
+.sub-text{
+    font-size: 13px;
+}
+
+.divs-facilidades{
+    width: 325px;
+}
+
+.btn__enviar,
+.btn__ver-mais{
+    background-color:#9353FF;
+    border-color: #9353FF;
+}
+
+.btn__enviar:hover,
+.btn__ver-mais:hover{
+    background-color:white;
+    border-color: #9353FF;
+    color: #9353FF;
+}
+
+.facilidade-icon{
+    color:  #DAFF01
+}
