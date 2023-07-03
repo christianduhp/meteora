@@ -32,9 +32,8 @@ O site é composto por várias seções, incluindo:
 | :label: Tecnologias | JavaScript, HTML, CSS (Bootstrap)
 | :rocket: URL         |<a href="https://christianduhp.github.io/meteora/">Execute aqui o projeto</a>
 
-![meteoraMobile](https://github.com/christianduhp/meteora/assets/85292359/744e1cb5-79e4-44c1-8a8a-5abbd6b59a7b#vitrinedev)
-![meteoraTablet](https://github.com/christianduhp/meteora/assets/85292359/7695b4d6-4e8c-4e7c-9ce8-54b638ceba3b#vitrinedev)
-![meteoraDesktop](https://github.com/christianduhp/meteora/assets/85292359/526e8814-f2ba-4523-9228-1b697c4bae19#vitrinedev)
+![Meteora](https://github.com/christianduhp/meteora/assets/85292359/83d8a57f-f96c-442e-b23a-32ad80c6bf46#vitrinedev)
+
 
 
 
