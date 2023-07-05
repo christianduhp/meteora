@@ -24,6 +24,10 @@ O site é composto por várias seções, incluindo:
 6. **Formulário de cadastro**: Um formulário onde os usuários podem se cadastrar para receber novidades e promoções por e-mail.
 7. **Rodapé**: Uma seção de rodapé que exibe informações sobre o desenvolvimento do site.
 
+### Modal de mais detalhes
+
+Foi implementado um modal no site que permite ao usuário visualizar mais detalhes sobre um produto específico. Ao clicar em um botão "Ver mais" em um card de produto, o modal é aberto e exibe informações adicionais, como cores disponíveis e tamanhos disponíveis. Essa funcionalidade aprimora a experiência do usuário ao fornecer informações detalhadas sem sair da página principal.
+
 ## Vitrine.Dev
 
 | :placard: Vitrine.Dev |<a href="https://cursos.alura.com.br/vitrinedev/christianoliver">Christian Oliveira</a> |
@@ -33,7 +37,7 @@ O site é composto por várias seções, incluindo:
 | :rocket: URL         |<a href="https://christianduhp.github.io/meteora/">Execute aqui o projeto</a>
 
 ![Meteora](https://github.com/christianduhp/meteora/assets/85292359/83d8a57f-f96c-442e-b23a-32ad80c6bf46#vitrinedev)
-
+![MeteoraModal](https://github.com/christianduhp/meteora/assets/85292359/72b59d63-11cd-49e6-9160-942eebc6e890)
 
 
 
