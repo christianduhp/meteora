@@ -32,7 +32,7 @@ function showProdutos(){
                         <p class="card-text">${description}</p>
                         <p class="price fw-bold">R$ ${price}</p>
 
-                        <button type="button" class="btn btn-primary btn__product__detail rounded-0 border-0 " data-toggle="modal" data-target="#cardProduct">
+                        <button type="button" class="btn__product-detail btn btn__purple rounded-0 border-0 " data-toggle="modal" data-target="#cardProduct">
                         Ver mais
                         </button>
 

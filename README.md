@@ -35,6 +35,8 @@ Foi implementado um modal no site que permite ao usuário visualizar mais detalh
 | :sparkles: Nome        | **Meteora**
 | :label: Tecnologias | JavaScript, HTML, CSS (Bootstrap)
 | :rocket: URL         |<a href="https://christianduhp.github.io/meteora/">Execute aqui o projeto</a>
+| :fire: Desafio     |<a href="https://www.figma.com/file/TT8Uq6LmVELALMKs4G4HE2Meteora---Projeto-Bootstrap-5">Desafio Figma</a> 
+
 
 ![Meteora](https://github.com/christianduhp/meteora/assets/85292359/83d8a57f-f96c-442e-b23a-32ad80c6bf46#vitrinedev)
 ![MeteoraModal](https://github.com/christianduhp/meteora/assets/85292359/72b59d63-11cd-49e6-9160-942eebc6e890)

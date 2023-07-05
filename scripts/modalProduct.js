@@ -58,14 +58,7 @@ function fetchModalProduct(productId) {
               }
 
             });
-
-
-
-
-
-
-
-
+            
           });
 
           product.sizes.forEach((sizes, index) => {
@@ -111,7 +104,7 @@ function modalProduct() {
     const target = event.target;
     const productId = event.target.parentNode.parentNode.id
 
-    if (target.classList.contains('btn__product__detail')) {
+    if (target.classList.contains('btn__product-detail')) {
       fetchModalProduct(productId)
       cardProduct.showModal()
 
@@ -122,3 +115,4 @@ function modalProduct() {
 }
 
 modalProduct();
+
