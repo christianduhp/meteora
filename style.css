@@ -1,24 +1,60 @@
-.sub-text{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.sub-text {
     font-size: 13px;
 }
 
-.divs-facilidades{
+.divs-facilidades {
     width: 325px;
 }
 
 .btn__enviar,
-.btn__ver-mais{
-    background-color:#9353FF;
+.btn__product__detail {
+    background-color: #9353FF;
     border-color: #9353FF;
+    color: white;
 }
 
 .btn__enviar:hover,
-.btn__ver-mais:hover{
-    background-color:white;
+.btn__product__detail:hover {
+    background-color: white;
     border-color: #9353FF;
     color: #9353FF;
+
 }
 
-.facilidade-icon{
-    color:  #DAFF01
+.product-detail__check,
+.facilidade-icon {
+    color: #DAFF01;
+    font-size: 32px;
 }
+
+.product-detail__close {
+    color: #6C757D;
+}
+
+.hr-thick {
+    height: 1px;
+    background-color: black;
+    border-color: black;
+}
+
+.sub-text__gray-color {
+    color: #ADB5BD;
+}
+
+.input-radio-color:checked,
+.input-radio-size:checked {
+    background-color: #9353FF;
+    border-color: #9353FF;
+}
+
+.modal-size {
+    width: 60em;
+    height: 50em;
+  }

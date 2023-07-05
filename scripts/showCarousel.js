@@ -36,9 +36,7 @@ function showCarouselItems() {
                         <p class="fs-4">${description}</p>
                     </div>
                 `;
-
-
-
+                
                 carousel.appendChild(carouselItem);
             });
         })

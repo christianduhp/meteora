@@ -1,13 +1,11 @@
 const categoriasContainer = document.querySelector('.categoriasContainer')
 
 function fetchCardCategorias(){
-
     return fetch("json/categorias.json")
         .then(response => response.json())
 }
 
 function showCategorias(){
-
     fetchCardCategorias()
         .then(categorias => {
 
@@ -35,7 +33,6 @@ function showCategorias(){
                     </div>
                 </div>
                 `
-
                 categoriasContainer.appendChild(categoriaDiv)
                 
             });

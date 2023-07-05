@@ -122,7 +122,7 @@
                     alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
                 <div class="card-body">
                     <h5 class="card-title fw-bold">Camiseta conforto</h5>
-                    <p class="card-text">Multicores e tamanhos. Tecido de algodão 100% fresquinho para o verão.
+                    <p class="      ">Multicores e tamanhos. Tecido de algodão 100% fresquinho para o verão.
                         Modelagem
                         unissex.
                     </p>
@@ -181,13 +181,91 @@
     </form>
 
     <footer class="text-center">
-        <p class="py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins
-            comerciais.</p>
+        <p class="py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Christian Oliveira em Curso Alura.</p>
     </footer>
 
-    <script src="./scripts/carousel.js"></script>
-    <script src="./scripts/cardCategorias.js"></script>
-    <script src="./scripts/cardProdutos.js"></script>
+    <!-- MODAL -->
+
+    <dialog data-product id="modalProduct" class="fixed p-0 modal-size">
+        <section class="bg-black d-flex align-items-center px-3 py-3 gap-3">
+            <div class=" d-flex align-items-center gap-2 col-11">
+                <i class="product-detail__check bi bi-check-circle"></i>
+                <h2 class="text-left mx-2 my-auto fs-5 text-white">Confira detalhes sobre o produto</h2>
+            </div>
+            <button id="closeProductCard" type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+        </section>
+
+        <section class=" border border-secundary m-3 p-3 d-flex flex-column flex-lg-row justify-content-center">
+
+            <div class="d-flex flex-column flex-lg-row gap-lg-4">
+                <div class="d-flex flex-column flex-md-row container-fluid justify-content-center">
+                    <img id="imgMobile" class="img-fluid d-md-none d-lg-none " src=""
+                        alt="">
+
+                    <img id="imgTablet" class="img-fluid d-none d-md-block d-lg-none" src=""
+                        alt="">
+
+                    <img id="imgDesktop" class="img-fluid d-none d-md-none d-lg-block" src=""
+                        alt="">
+                </div>
+
+
+                <div class="d-flex flex-column justify-content-center">
+                    <div>
+                        <h2 id="productName" class="my-4 fw-bold fs-4"></h2>
+
+                        <p id="productDescription" class="sub-text fs-6">
+                        </p>
+                        <hr class="my-4 hr-thick"/>
+
+                        <p id="productPrice" class="fs-3"></p>
+
+                        <p class="sub-text sub-text__gray-color "></p>
+                    </div>
+
+                    <section>
+                        <hr />
+                        <h2 class="sub-text fw-bold">Cores:</h2>
+                        <div class="product__colors d-flex flex-row my-3 justify-content-center align-items-center">
+                            <!-- <div class="form-check d-flex flex-column justify-content-center align-items-center">
+                                <input class="input-radio-color blue form-check-input m-2" type="radio" name="color"
+                                    id="color">
+                                <label id="colorName" class="sub-text form-check-label" for="color">
+                                    Azul claro
+                                </label>
+                            </div> -->
+    
+                        </div>
+    
+                        <hr />
+    
+                        <h2 class="sub-text fw-bold">Tamanho:</h2>
+    
+                        <div class="product__sizes d-flex flex-row my-4 justify-content-center align-items-center">
+                            <!-- <div class="form-check d-flex flex-column justify-content-center align-items-center">
+                                <input class="input-radio-color form-check-input m-2" type="radio" name="tam"
+                                    id="P">
+                                <label class="sub-text form-check-label" for="P">
+                                    P
+                                </label>
+                            </div> -->
+                        </div>
+    
+    
+                    </section>
+
+                    <button class="w-fit px-4 py-2 mb-4 btn__enviar font-bold">Adicionar à sacola</button>
+                </div>
+            </div>
+
+        </section>
+    </dialog>
+
+    <script src="./scripts/showCarousel.js" type="module"></script>
+    <script src="./scripts/showCategories.js" type="module"></script>
+    <script src="./scripts/showProducts.js" type="module"></script>
+    <script src="./scripts/modalProduct.js" type="module"></script>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
